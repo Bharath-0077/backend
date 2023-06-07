@@ -1,0 +1,21 @@
+{
+  "name": "gptapi",
+  "version": "1.0.0",
+  "description": "A node js environment to call OPEN AI chatGPT API's",
+  "main": "coverletter.js",
+  "scripts": {
+    "start": "node coverletter.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx}\""
+  },
+  "keywords": [],
+  "author": "vivekananda reddy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  }
+}
